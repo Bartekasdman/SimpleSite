@@ -1,0 +1,342 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f6f6f6;
+  }
+
+  #banner {
+    background-color: #2C2C2C;
+    height: 100px;
+  }
+
+  #lewy1 {
+    background-color: #04AAB4;
+    float: left;
+    height: 70px;
+    width: 70px;
+    position: relative;
+    left: 15px;
+    border-radius: 50%;
+    top: 15px;
+    cursor: pointer;
+  }
+
+  #lewy2 {
+    background-color: #7A7D80;
+    float: left;
+    height: 60px;
+    width: 100px;
+    position: relative;
+    left: 40px;
+    top: 20px;
+    cursor: pointer;
+  }
+
+  #prawy1 {
+    background-image: url(osoba3.png);
+    background-size: cover;
+    float: right;
+    width: 150px;
+    height: 60px;
+    position: relative;
+    top: 20px;
+    right: 40px;
+    cursor: pointer;
+  }
+
+  #prawy2 {
+    background-color: #04AAB4;
+    float: right;
+    height: 60px;
+    width: 150px;
+    position: relative;
+    border-radius: 40px 40px 40px 40px;
+    right: 80px;
+    top: 20px;
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+
+  #center {
+    width: 1200px;
+    height: 60px;
+    background-color: #7A7D80;
+    margin: 0 auto;
+    top: 20px;
+    position: relative;
+    right: 80px;
+    border-radius: 40px 40px 40px 40px;
+    cursor: pointer;
+  }
+
+  .lewypanel {
+    height: 1000px;
+    width: 270px;
+    background-color: #7A7D80;
+    float: left;
+  }
+
+  #kategorie {
+    color: #000;
+    font-size: 20px;
+    position: relative;
+    top: 100px;
+    left: 20px;
+    font-size: x-large;
+  }
+
+  .wojew {
+    position: relative;
+    top: 110px;
+    left: 30px;
+    font-size: large;
+    padding-top: 5px;
+    cursor: pointer;
+  }
+
+  #stworz {
+    position: relative;
+    top: 600px;
+    text-align: center;
+  }
+
+  #join {
+    background-color: #04AAB4;
+    height: 60px;
+    width: 200px;
+    position: relative;
+    top: 650px;
+    border-radius: 40px 40px 40px 40px;
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+
+  .prawypanel {
+    height: 1000px;
+    width: 420px;
+    background-color: #191919;
+    float: right;
+  }
+
+  #skroty {
+    background-color: #7A7D80;
+    width: 300px;
+    height: 250px;
+    position: relative;
+    top: 30px;
+    left: 50px;
+    border-radius: 5px 5px 5px 5px;
+    cursor: pointer;
+  }
+
+  p {
+    padding-top: 15px;
+    padding-left: 10px;
+    font-size: large;
+    line-height: 2;
+    font-size: 18px;
+  }
+
+  #polityki {
+    background-color: #7A7D80;
+    width: 250px;
+    height: 80px;
+    position: relative;
+    top: 60px;
+    left: 75px;
+    border-radius: 5px 5px 5px 5px;
+  }
+
+  #lew {
+    width: 140px;
+    height: 80px;
+    position: relative;
+    float: left;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    top: 15px;
+    line-height: 1.5;
+    left: 10px;
+    cursor: pointer;
+  }
+
+  #praw {
+    height: 80px;
+    width: 110px;
+    position: relative;
+    float: right;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    top: 20px;
+    cursor: pointer;
+  }
+
+  span {
+    font-size: 18px;
+  }
+
+  .centrum {
+    height: 1000px;
+    width: 1174px;
+    background-color: #191919;
+    float: left;
+  }
+
+  #posty {
+    width: 1000px;
+    height: 1000px;
+    background-color: #D9D9D9;
+    margin-left: 100px;
+    padding-left: 50px;
+  }
+
+  #pierw {
+    width: 1000px;
+    height: 600px;
+    background-color: #7A7D80;
+    position: relative;
+    padding-left: 50px;
+    right: 50px;
+  }
+
+  #banerposta {
+    width: 1050px;
+    height: 100px;
+    position: relative;
+    left: -50px;
+  }
+
+  #lokalizacja {
+    padding-left: 20px;
+    padding-top: 15px;
+    font-size: 18px;
+  }
+
+  #tytul {
+    padding-left: 20px;
+    padding-top: 15px;
+    font-size: 26px;
+  }
+
+  #zdj {
+    width: 1000px;
+    height: 420px;
+    background-image: url(morskie-oko-szlak1.png);
+    background-size: cover;
+    position: relative;
+    left: -25px;
+  }
+
+  #drugi {
+    width: 1000px;
+    height: 400px;
+    background-color: #D9D9D9;
+    position: relative;
+    padding-left: 50px;
+    right: 50px;
+  }
+
+  #kom {
+    font-size: 30px;
+    padding-top: 20px;
+
+  }
+
+  #twojkom {
+    background-color: #7A7D80;
+    height: 50px;
+    width: 950px;
+    top: 20px;
+    position: relative;
+    border-radius: 40px 40px 40px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    font-size: 24px;
+  }
+
+  #restkom {
+    width: 950px;
+    height: 256px;
+    background-color: #7A7D80;
+    position: relative;
+    top: 40px;
+  }
+
+  #loop {
+    top: -30px;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    left: 200px;
+  }
+  
+  #logo {
+    position: absolute;
+    top: 25px;
+    left: 110px;
+    width: 100px;
+    height: auto;
+  }
+  
+  #hamburger {
+    position: absolute;
+    top: 30px;
+    left:27px;
+    width: 45px;
+    height: auto;
+  }
+
+  #media {
+    position: absolute;
+    bottom: -160px;
+    left: 15px;
+    display: inline-block;
+    outline: 0;
+    cursor: pointer;
+    color: #FFFFFF;
+    padding: 14px 24px 16px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1;
+    transition: transform 100ms,background 100ms;
+    :hover{
+        transform: translateY(-2px);
+    }  
+  }
+  #media img {
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+  }
+  #ikony {
+    display: flex; /* Użyj flexboxa */
+    align-items: center; /* Wyrównaj ikony w pionie */
+    justify-content: flex-start; /* Wyśrodkuj ikony na końcu */
+    position: absolute;
+    bottom: 10px;
+    left: 25px;
+  }
+  
+  #ikony img {
+    width: 60px;
+    height: 60px;
+    margin-right: 40px;
+  }
+  
+  #ikony img:nth-child(3) {
+    margin-right: 680px; /* Zwiększ margines na trzeciej ikonie */
+  }
+  
+  
